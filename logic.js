@@ -2,6 +2,7 @@ function enkripsi() {
   let plain = document.getElementById("inputText").value;
   let Hasil = document.getElementById("output");
   Hasil.innerHTML = "";
+  // logic
 
   for (let key = 0; key < 26; key++) {
     let teksEnkripsi = "";
